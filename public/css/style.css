@@ -1,0 +1,114 @@
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.container {
+    flex: 1;
+}
+
+
+.navbar {
+    height: 5rem;
+    background-color: white;
+}
+
+;
+
+.navbar-brand {
+    color: red;
+    font-size: 2rem;
+}
+
+;
+
+.nav-link {
+    color: black;
+}
+
+;
+
+.f-info-links a {
+    text-decoration: none;
+    color: black;
+}
+
+.f-info-links a:hover {
+    text-decoration: underline;
+}
+
+.f-info-links {
+    width: 100%;
+}
+
+.f-info-socials {
+    width: 100%;
+    font-size: 1.5rem;
+}
+
+
+.f-info {
+    text-align: center;
+    height: 6rem;
+    background-color: gainsboro;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: space-evenly;
+}
+
+.card {
+    border: none !important;
+    margin-bottom: 1rem;
+
+}
+
+
+.card-img-top {
+    width: 100px;
+    height: 350px;
+}
+
+.card-img-top-show {
+    width: 450px;
+    height: 400px;
+}
+
+.show-img {
+    width: 100%;
+    height: 500px;
+    object-fit: cover;
+}
+
+
+/*Style for reviews*/
+
+.review-card {
+    border-radius: 1rem !important;
+    border: 1px solid #dcdcdc !important;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    transition: all 0.3s ease;
+}
+
+.review-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 18px rgba(0,0,0,0.15);
+}
+
+.review-comment {
+    font-size: 0.95rem;
+    color: #444;
+    line-height: 1.5;
+}
+
+.review-rating {
+    font-weight: 600;
+    color: #ff9800;
+}
+/* map */
+
+#map {
+    height: 400px;
+    width: 100%;
+}

@@ -1,0 +1,12 @@
+services:
+    - type: web
+    name: major-project-1
+    env: node
+    plan: free
+    buildCommand: npm install
+    startCommand: npm start
+    envVars:
+            - key: PORT
+        value: 10000
+            - key: MONGODB_URI
+        sync: false  # Iska matlab Render khud poochega value
